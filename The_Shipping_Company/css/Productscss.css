@@ -1,0 +1,47 @@
+body{
+	background: lightgray; /* For browsers that do not support gradients */
+	background: linear-gradient(to bottom, lightgray, #073279); /* Standard syntax */
+}
+.divProducts{
+	width:960px;
+	margin:auto;
+}
+
+.divInfoProducts{
+	width:690px;
+	float:left;
+	margin-right:30px;
+}
+
+.divNavInfoProducts{
+	width:235px;
+	float:left;
+}
+
+.fieldsetDivInfoHeadersProduct{
+	float:left;
+	text-align:center;
+	margin: 50px;
+}
+
+blockquote{
+	width:235px;
+	margin:20px 0px 10px 0px;
+}
+
+
+/* The following @media rule applies the enclosed styles only when the output 
+device is a screen and the width of the viewport is at most 768px  */
+
+@media only screen and (max-width: 990px) {
+    .divProducts{width:auto;}
+	
+	.divInfoProducts{width:auto;}
+	
+	.divNavInfoProducts{width:auto;}
+	
+	.fieldsetDivInfoHeadersProduct{width:auto;}
+	
+	.divProducts, .divInfoProducts, .divNavInfoProducts, .fieldsetDivInfoHeadersProduct {margin:20px;} 
+     
+}

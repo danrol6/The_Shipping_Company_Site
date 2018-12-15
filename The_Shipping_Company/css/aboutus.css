@@ -1,0 +1,50 @@
+.divAboutUs{
+	width:960px;
+	margin:auto;
+}
+
+.divInfoAboutUs{
+	width:960px;
+	float:left;
+}
+
+.fieldsetDivInfoHeadersAboutUs{
+	float:left;
+	text-align:center;
+	margin-right:20px;
+}
+
+.fieldsetDivInfoAboutUs{
+	clear:both;
+}
+
+/* The following @media rule applies the enclosed styles only when the output 
+device is a screen and the width of the viewport is at most 768px  */
+
+@media only screen and (max-width: 990px) {
+    .divAboutUs{width:auto;}
+	
+	.divInfoAboutUs{width:auto;}
+	
+	.divNavInfoAboutUs{width:auto;}
+	
+	.fieldsetDivInfoHeadersProduct{width:auto;}
+
+     
+}
+
+/* The following @media rule applies the enclosed styles only when the output 
+device is a screen and the width of the viewport is at most 480px  */
+
+@media only screen and (max-width: 480px) {
+   .divAboutUs{width:auto;}
+	
+	.divInfoAboutUs{width:auto;}
+	
+	.divNavInfoAboutUs{width:auto;}
+	
+	.fieldsetDivInfoHeadersProduct{width:auto;}
+
+	.fieldsetDivInfoHeadersAboutUs{float:none;margin-right:30px;margin-left:50px;}
+    
+}

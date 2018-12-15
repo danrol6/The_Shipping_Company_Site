@@ -1,0 +1,50 @@
+.divContactUs{
+	width:960px;
+	margin:auto;
+}
+
+.divInfoContactUs{
+	width:960px;
+	float:left;
+}
+
+.contactusdivseparator{
+	float:left;
+}
+
+#contactusseparator{
+	margin-right: 20px;
+}
+
+.formContactUsLI{
+	margin-top:10px;
+}
+
+.formContactUsCheckbox{
+	margin-top:20px;
+}
+
+#formContactUsLabels li { 
+	display: block;
+}
+
+
+/* The following @media rule applies the enclosed styles only when the output 
+device is a screen and the width of the viewport is at most 768px  */
+
+@media only screen and (max-width: 990px) {
+    .divContactUs{width:auto;}
+	
+	.divInfoContactUs{width:auto;}
+     
+}
+
+/* The following @media rule applies the enclosed styles only when the output 
+device is a screen and the width of the viewport is at most 480px  */
+
+@media only screen and (max-width: 480px) {
+   .divContactUs{width:auto;}
+	
+	.divInfoContactUs{width:auto;}
+	
+}

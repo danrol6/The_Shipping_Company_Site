@@ -1,0 +1,44 @@
+body{
+	background-image:url("../img/boxbackground.png");
+	
+}
+.divExternalLinks{
+	width:960px;
+	margin:auto;
+}
+
+.divInfoExternalLinks{
+	width:960px;
+	float:left;
+}
+.aExternalLinks, h3{
+	margin:10px;
+}
+
+.aExternalLinks:hover{
+	background-color:lightgray;
+}
+
+.aExternalLinks:visited{
+	color:red;
+}
+
+/* The following @media rule applies the enclosed styles only when the output 
+device is a screen and the width of the viewport is at most 768px  */
+
+@media only screen and (max-width: 990px) {
+    .divexternallinks{width:auto;}
+	
+	.divInfoexternallinks{width:auto;}
+     
+}
+
+/* The following @media rule applies the enclosed styles only when the output 
+device is a screen and the width of the viewport is at most 480px  */
+
+@media only screen and (max-width: 480px) {
+   .divexternallinks{width:auto;}
+	
+	.divInfoexternallinks{width:auto;}
+	
+}

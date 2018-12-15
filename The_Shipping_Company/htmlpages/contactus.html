@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+   <head>
+      <title>Shipping Company</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="../css/base.css">
+      <link rel="stylesheet" href="../css/contactus.css">
+   </head>
+   <body>
+      <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+      <!-- Add your site or application content here -->
+      <div id="wrapper">
+         <div id="divHeader">
+            <header>
+               <a href="../htmlpages/index.html"><img class="image" src="../img/logo.png" width="300" height="100" alt="logo"></a>
+               <ul>
+                  <li><a class="headLinks" href="../htmlpages/index.html">Home</a></li>
+                  <li><a class="headLinks" href="../htmlpages/products.html">Products</a></li>
+                  <li><a class="headLinks" href="../htmlpages/aboutus.html">About Us</a></li>
+                  <li><a class="headLinks" href="../htmlpages/contactus.html">Contact Us</a></li>
+               </ul>
+            </header>
+         </div>
+         <div class="divContactUs">
+            <h3>Contact us</h3>
+            <div class="divInfoContactUs">
+               <form name="contactUs" method="post" action="http://webdevbasics.net/scripts/demo.php">
+                  <fieldset class="fieldsetDivInfoContactUs">
+                     <div class="contactusdivseparator" id="contactusseparator">
+                        <p style="text-align:left;"> Please fill the following information to ensure that we are able<br>
+                           to contact you back once you submit your comments/question.<br>
+                           Or you can simply contact us directly at <a href="mailto:ddroldan@outlook.com" target="_top">ddroldan@outlook.com</a>
+                        </p>
+                        <ul id="formContactUsLabels">
+                           <li class="formContactUsLI"> <input name="custFirstName" type="text" placeholder="First Name"> <input name="custLastName" type="text" placeholder="Last Name"></li>
+                           <input type="radio" name="Male" checked> Male
+                           <input type="radio" name="Female" > Female 
+                           <li class="formContactUsLI"> <input name="custTel" type="text" placeholder="Telephone"> <input name="custCel" type="text" placeholder="Cellphone"></li>
+                           <li class="formContactUsLI"> <input name="custemail" type="text" placeholder="E-mail"></li>
+               <li class="formContactUsCheckbox">Please mark the reason you are contacting us (Mark all that apply): </li>
+               <input type="checkbox" name="mypackage" class="formContactUsLI">Information about my package
+               <input type="checkbox" name="becomingagent" class="formContactUsLI">Becoming an agent<br>
+               <input type="checkbox" name="customerservice" class="formContactUsLI">Customer service
+               <input type="checkbox" name="Billing" class="formContactUsLI">Billing<br>
+               <input type="checkbox" name="Comment" class="formContactUsLI">Comment
+               <input type="checkbox" name="Other" class="formContactUsLI">Other<br>
+               <li class="formContactUsLI"> Please explain:<br> <textarea rows="4" cols="50" name="comments" placeholder="Enter your comments here"></textarea></li>
+               <li class="formContactUsLI"> <input name="Submit" type="submit" value="Submit"></li>
+               </ul>
+               </div>
+               <div class="contactusdivseparator">
+               <img class="imagecontactus" src="../img/ContactUs.png" width="300" height="450" alt="Contact Us">
+               </div>
+               </fieldset>
+               </form>
+            </div>
+         </div>
+         <footer>
+            <div class="footer1">
+               <h4><small>Our Services</small></h4>
+               <small class="footerlinks">National/International Shipping</small>
+               <small class="footerlinks">Overseas</small>
+               <small class="footerlinks">Moving</small>
+            </div>
+            <div class="footer1">
+               <h4><a href="../htmlpages/externallinks.html" target="_blank"><small>External Links Page</small></a></h4>
+               <a href="http://www.fedex.com/" class="footerlinks" target="_blank"><small>Fedex</small></a>
+               <a href="https://www.ups.com/" class="footerlinks" target="_blank"><small>UPS</small></a>
+               <a href="http://www.dhl.com/en.html" class="footerlinks" target="_blank"><small>DHL</small></a>
+            </div>
+            <div class="footer1">
+               <h4><small>Public Documents</small></h4>
+               <a href="../doc/RESPONSABILIDAD_EN_EL_EMPAQUE_RYCH.pdf" class="footerlinks" target="_blank"><small>Package Responsabilities</small></a>
+               <a href="../doc/FORMATO_DE_INSCRIPCION_DE_AGENTES_RYCH.pdf" class="footerlinks" target="_blank"><small>New Agent Format</small></a>
+               <a href="../doc/FORMATO_DE_RECLAMACION_RYCH.pdf" class="footerlinks" target="_blank"><small>Claim Format</small></a>
+            </div>
+            <div id="divFooter">
+               <p><small>Copyright &copy;  <a href="../doc/Shipping_Privacy_Policy.pdf" target="_blank"> Privacy Policy </a> </small></p>
+            </div>
+         </footer>
+      </div>
+   </body>
+</html>
